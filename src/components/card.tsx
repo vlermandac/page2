@@ -25,7 +25,7 @@ export default function Card({
 
       <div>
         <div className="w-full overflow-hidden min-h-36 max-h-44 z-10">
-          <img src={bannerUrl} alt="banner" transform-images="avif 300@4 " className="w-full object-cover" />
+          <img src={bannerUrl} alt="banner" transform-images="avif 800@2" className="w-full object-cover" />
         </div>
         <div className="size-32 overflow-hidden absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-[#2F2B48]">
           <img src={avatarUrl} alt={name} transform-images="avif 300@2" className="size-full object-cover" />
